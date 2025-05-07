@@ -6,7 +6,7 @@ import tempfile
 import os
 
 # Load your trained model
-model = YOLO("C:/Users/helou/Documents/dev_python/runs/detect/train5/weights/best.pt")  # <-- update path if needed
+model = YOLO("./best.pt")  # <-- update path if needed
 
 st.title("📷 Object Detection App")
 st.write("Upload an image to detect multiple objects using your custom YOLOv8 model.")
